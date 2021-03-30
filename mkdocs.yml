@@ -1,0 +1,8 @@
+site_name: "claim-finalizer-service"
+site_description: "The Claim Finalizer Service performs the finalization steps necessary during claim processing for a Veteran's application."
+
+nav:
+  - Overview: index.md
+
+plugins:
+  - techdocs-core

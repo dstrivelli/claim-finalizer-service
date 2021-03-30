@@ -1,0 +1,14 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "claim-finalizer-service"
+  description: "The Claim Finalizer Service performs the finalization steps necessary during claim processing for a Veteran's application."
+  annotations:
+    github.com/project-slug: dstrivelli/claim-finalizer-service
+    backstage.io/techdocs-ref: url:https://github.com/dstrivelli/claim-finalizer-service
+spec:
+  type: service
+  lifecycle: production
+  owner: "claims"
+  providesApis:
+    - claim-finalizer-service
