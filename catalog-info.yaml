@@ -17,3 +17,5 @@ spec:
   owner: "claims"
   providesApis:
     - claim-finalizer-service
+  consumesApis:
+    - claims-api
